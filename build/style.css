@@ -61,7 +61,7 @@ h2{
 }
 
 
-p, h3, ul, h4, .h3-wrapper, .h3-prepend{
+p, h3, ul, h4{
 	position: relative;
 	width: 90vw;
 	margin: 0 auto;
@@ -85,47 +85,7 @@ h3{
 
 }
 
-	.h3-closed{
-		display: inline-block;
-		position: relative;
-		background-color: purple;
-		overflow: hidden;
-		width: 20px;
-		height: 20px;
-		border-radius: 10px;
-		margin-left: 10px;
-		margin-bottom: -1px;
-		transition: opacity 0.2s ease-out;
-		-webkit-transition: opacity 0.2s ease-out;
-		-moz-transition: opacity 0.2s ease-out;
-
-	}
-
-	#horizontal, #vertical{
-		position: absolute;
-		background-color: black;
-		border-radius: 2px;
-
-	}
-
-	#horizontal{
-		left: 3px;
-		top: 8px;
-		width: 14px;
-		height: 4px;
-
-	}
-
-	#vertical{
-		left: 8px;
-		top: 3px;
-		width: 4px;
-		height: 14px;
-	}
-
-	.h3-wrapper{
-		display: none;
-	}
+	
 
 h4{
 	
@@ -170,7 +130,7 @@ h4 > img{
 }
 
 
-a{
+a{ 
 	text-decoration: none;
 	color: purple;
 	transition: opacity 0.2s ease-out;
