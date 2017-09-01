@@ -1,1 +1,186 @@
+/* STYLE */
+
+
+
+body, html{
+	font-family: Times New Roman;
+	font-weight: normal;
+	background-color: black;
+	color: gray;
+
+
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: purple;
+}
+
+::selection {
+    color: black; 
+    background: purple;
+}
+
+
+body{
+	opacity: 0;
+	transform: translateY(40px);
+	-webkit-transform: translateY(40px);
+	-moz-transform: translateY(40px);
+	transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+	-webkit-transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+	-moz-transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+
+	padding-bottom: 100px;
+}
+
+h1{
+
+	text-align: center;
+	font-size: 40px;
+	font-weight: normal;
+	
+
+}
+
+h2{
+	position: relative;
+	text-align: left;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 50px;
+	margin: 0 auto;
+	width: 90vw;
+	max-width: 1000px;
+	margin-bottom: 30px;
+	margin-top: 120px;
+	border-top: 1px solid purple;
+	padding-top: 15px;
+
+
+}
+
+
+p, h3, ul, h4, .h3-wrapper, .h3-prepend{
+	position: relative;
+	width: 90vw;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: normal;
+	max-width: 1000px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+
+}
+
+ul{
+	padding-bottom: 30px;
+}
+
+h3{
+	font-style: italic;
+
+
+}
+
+	.h3-closed{
+		display: inline-block;
+		position: relative;
+		background-color: purple;
+		overflow: hidden;
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
+		margin-left: 10px;
+		margin-bottom: -1px;
+		transition: opacity 0.2s ease-out;
+		-webkit-transition: opacity 0.2s ease-out;
+		-moz-transition: opacity 0.2s ease-out;
+
+	}
+
+	#horizontal, #vertical{
+		position: absolute;
+		background-color: black;
+		border-radius: 2px;
+
+	}
+
+	#horizontal{
+		left: 3px;
+		top: 8px;
+		width: 14px;
+		height: 4px;
+
+	}
+
+	#vertical{
+		left: 8px;
+		top: 3px;
+		width: 4px;
+		height: 14px;
+	}
+
+	.h3-wrapper{
+		display: none;
+	}
+
+h4{
+	
+	padding-left: 30px;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+
+
+
+p >img, img {
+
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 80vw;
+	max-width: 700px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+
+
+
+h4 > img{
+
+	display: inline-block;
+	position: relative;
+	width: 40vw;
+	max-width: 400px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+
+}
+
+
+a{
+	text-decoration: none;
+	color: purple;
+	transition: opacity 0.2s ease-out;
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+}
+
+a:hover, .h3-closed:hover{
+	text-decoration: none;
+	opacity: 0.6;
+	cursor: pointer;
+}
 
