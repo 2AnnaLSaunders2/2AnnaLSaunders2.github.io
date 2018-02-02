@@ -13,12 +13,12 @@ body, html{
 
 ::-moz-selection { /* Code for Firefox */
     color: black;
-    background: purple;
+    background: red;
 }
 
 ::selection {
     color: black; 
-    background: purple;
+    background: red;
 }
 
 
@@ -54,7 +54,7 @@ h2{
 	max-width: 1000px;
 	margin-bottom: 30px;
 	margin-top: 120px;
-	border-top: 1px solid purple;
+	border-top: 1px solid white;
 	padding-top: 15px;
 
 
@@ -132,7 +132,7 @@ h4 > img{
 
 a{ 
 	text-decoration: none;
-	color: purple;
+	color: white;
 	transition: opacity 0.2s ease-out;
 	-webkit-transition: opacity 0.2s ease-out;
 	-moz-transition: opacity 0.2s ease-out;
